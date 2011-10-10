@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Crush</title>
-  <%= stylesheet_link_tag :all %>
+  <title>Crush <%= @title%></title>
+  <%= render 'layouts/stylesheets' %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 <body>
-
-<%= yield %>
-
+<div class="container">
+<%= render 'layouts/header' %>
+	<section class="round clear">
+		<%= yield %>
+		
+		</section>
+		<%= render 'layouts/footer'%>
+</div>
 </body>
 </html>

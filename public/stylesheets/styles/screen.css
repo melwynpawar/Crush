@@ -1,0 +1,14 @@
+*{padding:0; margin:0;}
+body{font-family:arial; background:#cff;}
+.round{border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;}
+.logo{float:left;margin-right:20px;}
+nav ul li{float:left;  margin-right:20px;list-style:none;}
+nav ul li a{color:#fff; text-decoration:none; font-weight:bold;}
+nav ul li a:hover{ text-decoration:underline; }
+.clear:after{  content:"";display:table;clear:both;}
+.container{width:960px;margin:0 auto;}
+header,footer{background:#336666;line-height:64px;}
+section{margin-top:10px; background:#339999; color:#000;height:400px;padding:10px;margin-bottom:10px;}
+section a{color:#fff; text-decoration:none; font-weight:bold;}
+footer{padding-left:20px;}
+.signup{background:#996600;color:#fff;padding:10px 20px; text-align:center;margin:20px auto;display:block; width:80px;border-top:1px solid #663300; border-left:1px solid #663300;text-shadow:1px 1px 1px #333;}
